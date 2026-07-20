@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Movies from "./pages/Movies";
 import Favorites from "./pages/Favorites";
 import MovieDetails from "./pages/MovieDetails";
-import SearchResults from "../../SearchResults";
+import SearchResults from "./pages/SearchResults";
 import { createBrowserRouter } from "react-router-dom";
 
 export const router = createBrowserRouter([
