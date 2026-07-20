@@ -1,5 +1,5 @@
 import { useSearchParams } from "react-router-dom";
-import { searchMovies } from "./CineScope/src/services/tmdb";
+import { searchMovies } from "../services/tmdb";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
