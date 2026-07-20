@@ -54,6 +54,4 @@ CineScope is a modern movie discovery web application built with **React**, **Vi
 
 
 
----
 
-⭐ If you like this project, consider giving it a star!
