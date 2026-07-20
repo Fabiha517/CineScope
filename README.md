@@ -1,16 +1,59 @@
-# React + Vite
+# 🎬 CineScope
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CineScope is a modern movie discovery web application built with **React**, **Vite**, and **Tailwind CSS**, powered by the **TMDB API** for Browsing trending movies, exploring detailed information, searching your favorite titles, and creating your own favorites collection—all in a  responsive interface.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 https://cine-scope-lime.vercel.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🎥 Browse Trending & Popular Movies
+- 🔍 Search movies instantly
+- 📖 Detailed movie information
+- 🎭 Cast information
+- ▶️ Watch official trailers
+- ❤️ Add & remove favorites
+- 🎬 Similar movie recommendations
+- 📂 Filter by genre, release year & sorting
+- 📱 Fully responsive design
+- ⚡ Fast performance with Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Built With
+
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- Zustand
+- TMDB API
+
+---
+
+## 📸 Screenshots
+
+### Home
+![Home](./screenshots/Home.png)
+
+### Movies
+![Movies](./screenshots/Movies.png)
+
+### Movie Details
+![Movie Details](./screenshots/Details.png)
+
+### Favorites
+![Favorites](./screenshots/Fav.png)
+
+### Movie Not Found
+![Movie Not Found](./screenshots/NotFound.png)
+---
+
+
+
+---
+
+⭐ If you like this project, consider giving it a star!
