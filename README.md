@@ -37,19 +37,19 @@ CineScope is a modern movie discovery web application built with **React**, **Vi
 ## 📸 Screenshots
 
 ### Home
-![Home](./screenshots/Home.png)
+![Home](./public/screenshots/Home.png)
 
 ### Movies
-![Movies](./screenshots/Movies.png)
+![Movies](./public/screenshots/Movies.png)
 
 ### Movie Details
-![Movie Details](./screenshots/Details.png)
+![Movie Details](./public/screenshots/Details.png)
 
 ### Favorites
-![Favorites](./screenshots/Fav.png)
+![Favorites](./public/screenshots/Fav.png)
 
 ### Movie Not Found
-![Movie Not Found](./screenshots/NotFound.png)
+![Movie Not Found](./public/screenshots/NotFound.png)
 ---
 
 
