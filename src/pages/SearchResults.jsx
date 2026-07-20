@@ -3,7 +3,7 @@ import { searchMovies } from "./CineScope/src/services/tmdb";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-import NotFound from "./CineScope/src/pages/NotFound";
+import NotFound from "./NotFound";
 
 const SearchResults = () => {
 	const [searchParams] = useSearchParams();
