@@ -59,7 +59,7 @@ const SearchResults = () => {
 						{movies.map((movie) => (
 							<Link
 								key={movie.id}
-								to={`/CineScope/movies/${movie.id}`}
+								to={`/movies/${movie.id}`}
 								className="flex items-center gap-4 rounded-xl bg-[#151b26] hover:bg-[#1b2332] transition p-3">
 								<img
 									src={`https://image.tmdb.org/t/p/w185${movie.poster_path}`}

@@ -8,7 +8,7 @@ import { createBrowserRouter } from "react-router-dom";
 
 export const router=createBrowserRouter([
   {
-    path:"/CineScope",
+    path:"/",
     element:<App/>,
     children:[
       {
@@ -16,19 +16,19 @@ export const router=createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/CineScope/movies",
+        path: "/movies",
         element: <Movies />,
       },
       {
-        path: "/CineScope/favorites",
+        path: "/favorites",
         element: <Favorites />,
       },
       {
-        path: "/CineScope/movies/:id",
+        path: "/movies/:id",
         element: <MovieDetails/>,
       },
       {
-        path: "/CineScope/search",
+        path: "/search",
         element: <SearchResults/>,
       },
     ]

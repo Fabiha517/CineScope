@@ -34,7 +34,7 @@ const NotFound = () => {
 
 				<div className="flex justify-center lg:justify-start">
   <Link
-    to="/CineScope"
+    to="/"
     className="inline-flex items-center gap-3 rounded-full bg-cyan-500 hover:bg-cyan-400 px-7 py-3 font-semibold transition-all duration-300 hover:scale-105 shadow-[0_0_30px_rgba(6,182,212,.35)]"
   >
     <FiHome size={20} />

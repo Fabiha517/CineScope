@@ -123,7 +123,7 @@ lg:text-6xl font-extrabold leading-tight tracking-tight">
 sm:w-auto
 px-6
 py-3 rounded-full font-semibold transition   cursor-pointer"
-									onClick={() => navigate(`/CineScope/movies/${movie.id}`)}>
+									onClick={() => navigate(`/movies/${movie.id}`)}>
 									View Details
 								</button>
 

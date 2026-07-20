@@ -12,7 +12,7 @@ const MovieCard = ({ movie }) => {
 	return (
 		<div
 			className="relative h-full w-full  overflow-hidden rounded-xl border border-white/5  cursor-pointer shrink-0 "
-			onClick={() => navigate(`/CineScope/movies/${movie.id}`)}>
+			onClick={() => navigate(`/movies/${movie.id}`)}>
 			<img
 				src={imageUrl}
 				alt={movie.title}

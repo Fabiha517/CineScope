@@ -28,7 +28,7 @@ const Navbar = () => {
 	const handleSearch = () => {
 		if (searchQuery.trim()) {
 			navigate(
-				`/CineScope/search?query=${encodeURIComponent(searchQuery)}`
+				`/search?query=${encodeURIComponent(searchQuery)}`
 			);
 			setMenuOpen(false);
 		}
@@ -49,7 +49,7 @@ const Navbar = () => {
 						<div
 							className=" cursor-pointer shrink-0"
 							end
-							onClick={() => navigate("/CineScope/")}
+							onClick={() => navigate("/")}
 						>
 							<img
 								src={logo}
@@ -62,7 +62,7 @@ const Navbar = () => {
 					{/* Desktop Navigation */}
 					<div className="hidden md:flex items-center lg:gap-10 md:gap-4 font-medium ">
 						<NavLink
-							to="/CineScope/"
+							to="/"
 							end
 							className={({ isActive }) =>
 								`pb-1 ${
@@ -76,7 +76,7 @@ const Navbar = () => {
 						</NavLink>
 
 						<NavLink
-							to="/CineScope/movies"
+							to="/movies"
 							end
 							className={({ isActive }) =>
 								`pb-1 ${
@@ -90,7 +90,7 @@ const Navbar = () => {
 						</NavLink>
 
 						<NavLink
-							to="/CineScope/favorites"
+							to="/favorites"
 							end
 							className={({ isActive }) =>
 								`pb-1 ${
@@ -182,7 +182,7 @@ const Navbar = () => {
 				<div className="flex flex-col mt-6">
 
 					<NavLink
-						to="/CineScope/"
+						to="/"
 
 						end
 						onClick={() => setMenuOpen(false)}
@@ -198,7 +198,7 @@ const Navbar = () => {
 					</NavLink>
 
 					<NavLink
-						to="/CineScope/movies"
+						to="/movies"
 						onClick={() => setMenuOpen(false)}
 						className={({ isActive }) =>
 							`px-8 py-4 transition ${
@@ -212,7 +212,7 @@ const Navbar = () => {
 					</NavLink>
 
 					<NavLink
-						to="/CineScope/favorites"
+						to="/favorites"
 						onClick={() => setMenuOpen(false)}
 						className={({ isActive }) =>
 							`px-8 py-4 transition ${
