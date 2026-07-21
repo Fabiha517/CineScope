@@ -240,7 +240,7 @@ const MovieDetails = () => {
 			</div>
 
 			{showTrailer && (
-				<div className="absolute inset-0 z-50 bg-black/90 flex items-center justify-center">
+				<div className="absolute inset-0 z-700 bg-black/90 flex items-center justify-center">
 					<button
 						onClick={() => setShowTrailer(false)}
 						className="absolute top-5 right-5 text-white text-3xl cursor-pointer hover:text-violet-400">

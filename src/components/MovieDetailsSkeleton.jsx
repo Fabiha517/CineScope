@@ -78,9 +78,7 @@ const MovieDetailsSkeleton = () => {
 
 					<div className="flex gap-5 overflow-hidden">
 						{Array.from({ length: 5 }).map((_, i) => (
-							<div
-								key={i}
-								className="min-w-42.5 sm:min-w-50 lg:min-w-55">
+							<div key={i} className="min-w-42.5 sm:min-w-50 lg:min-w-55">
 								<div className="aspect-[2/3] rounded-xl bg-[#2a344d]" />
 
 								<div className="h-5 w-3/4 rounded bg-[#2a344d] mt-3" />

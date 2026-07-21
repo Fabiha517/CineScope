@@ -42,7 +42,7 @@ const Navbar = () => {
 
 	return (
 		<>
-			<nav className="sticky top-0 z-1000 bg-[#0A0F1D] border-b border-[#1F2937]">
+			<nav className="sticky top-0 z-600 bg-[#0A0F1D] border-b border-[#1F2937]">
 				<div className=" px-4 sm:px-6 lg:px-10 h-18 flex items-center justify-between	 md:gap-2 max-w-screen overflow-hidden">
 
 					
@@ -163,7 +163,7 @@ const Navbar = () => {
 			{/* Sliding Drawer */}
 			<div
 				className={`fixed top-0 right-0 h-screen w-72 bg-[#111827] border-l border-[#1F2937]
-				z-500 shadow-2xl transition-transform duration-300 ease-in-out
+				z-700 shadow-2xl transition-transform duration-300 ease-in-out
 				${menuOpen ? "translate-x-0" : "translate-x-full"}`}
 			>
 				{/* Header */}
